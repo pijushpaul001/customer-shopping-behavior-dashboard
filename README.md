@@ -1,4 +1,4 @@
-# Customer Shopping Behavior Dashboard (Power BI)
+## Customer Shopping Behavior Dashboard (Power BI)
 
 An interactive Power BI dashboard analyzing customer shopping behavior, demographics, and purchasing patterns across product categories, seasons, and payment methods.
 
@@ -40,17 +40,15 @@ This project explores customer-level transaction data to answer key business que
 - Subscription vs. non-subscription spending behavior
 - Interactive slicers for filtering by category, season, and location
 
-*(Screenshot of the dashboard below — see `screenshots/` folder)*
-
 ![Dashboard Overview](screenshots/dashboard_overview.png)
 
 ## 🔑 Key Insights
 
-*(Fill in 3-5 bullet points once you've reviewed your findings, e.g.:)*
-- [Age group] customers show the highest average purchase amount
-- Subscribers make [X]% more frequent purchases than non-subscribers
-- [Category] sees the strongest seasonal spike during [season]
-- [Payment method] is the most commonly used, especially among [segment]
+- Clothing is the dominant category by volume (~44% of all transactions), though average spend per transaction is broadly similar across categories (~$57–60)
+- Discount usage does not correlate with higher spend — non-discounted purchases actually average slightly higher ($60.13 vs $59.28), suggesting discounts may drive purchase frequency rather than basket size
+- Subscribed customers show marginally higher repeat-purchase counts (26.1 vs 25.1 previous purchases) than non-subscribers, but subscription status has little effect on the amount spent per transaction
+- Payment method and shipping preference are evenly distributed across options, with no single channel dominating customer choice
+- Review ratings show no meaningful correlation with purchase amount or purchase history, indicating customer satisfaction is largely independent of spend behavior in this dataset
 
 ## 📂 How to View
 
